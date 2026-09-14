@@ -4,7 +4,7 @@ export const NODOS = [
   { id: "erp", etiqueta: "ERP de obra", capa: "Fuente", pos: [-7, 3.0, 0], color: 0x6f8296,
     texto: "El programa donde la oficina técnica lleva presupuestos, certificaciones y costes de cada obra. Suele ser antiguo, con una base de datos que nadie quiere tocar.",
     decision: "Se lee por vistas de solo lectura acordadas con el cliente. Nunca se escribe en él." },
-  { id: "odoo", etiqueta: "Odoo · contabilidad", capa: "Fuente", pos: [-7, 1.5, 0], color: 0x6f8296,
+  { id: "odoo", etiqueta: "Contabilidad", capa: "Fuente", pos: [-7, 1.5, 0], color: 0x6f8296,
     texto: "La contabilidad y la gestión de la empresa. Aquí viven las cuentas analíticas que deberían corresponder a cada obra, y a menudo faltan.",
     decision: "Se accede por su API oficial. Si algún día se escribe, es con autorización expresa y solo ahí." },
   { id: "excel", etiqueta: "Hojas de cálculo", capa: "Fuente", pos: [-7, 0, 0], color: 0x6f8296,
